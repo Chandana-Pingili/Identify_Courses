@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite"  Parallel="tests" thread-count="2">
+	<listeners>
+		<listener class-name="Utils.ExtentReportListener"/>
+	</listeners>
+	<test thread-count="5" name="ChromeTest">
+	<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="testCases.WebDevelopment" />
+			<class name="testCases.LanguageLearning"/>
+			<class name="testCases.ForEnterprise" />
+
+		</classes>
+	</test> <!-- Test -->
+	
+	<test thread-count="5" name="EdgeTest">
+	<parameter name="browser" value="edge"/>
+		<classes>
+			<class name="testCases.WebDevelopment" />
+			<class name="testCases.LanguageLearning"/>
+			<class name="testCases.ForEnterprise" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -2,8 +2,6 @@
 ## Hackathon project as part of training in Quality engineer with selenium automation
 
 
-# Web Development Course Automation - Hackathon Project
-
 ## 🧠 Problem Statement
 
 Automate the process of searching and extracting beginner-level web development courses in English, analyzing language learning options, and interacting with Coursera's enterprise form.
@@ -48,8 +46,7 @@ Automate the process of searching and extracting beginner-level web development 
 
 ### 3. Enterprise Form Automation
 
-- Navigate to **Home > For Enterprise > Campus**
-- Under **Product**, locate **Courses for Campus**
+- Navigate to **Home > For Enterprise**
 - Fill the **"Ready to transform"** form with one invalid input (e.g., incorrect email format)
 - Capture and display the **error message**
 
@@ -69,10 +66,10 @@ Automate the process of searching and extracting beginner-level web development 
 
 ## 💡 Tools & Technologies
 
-- Selenium / Playwright for browser automation
-- Python for scripting
-- GitHub for version control
-- Markdown for documentation
+- Selenium for browser automation
+- Testng for assertions
+- POM for code readability and reusability
+- ApachePOI for handling data in excel file(.xlsx).
 
 ---
 
